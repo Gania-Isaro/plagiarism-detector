@@ -3,7 +3,7 @@ Plagiarism Detector
 This project compares two essays to check how similar they are.
 It cleans the text, removes stop words, and then calculates a plagiarism percentage using Jaccard similarity.
 
-How to use
+How to use;
 Run setup.sh to create the folders.
 Put your two essays inside the essays folder as essay1.txt and essay2.txt.
 

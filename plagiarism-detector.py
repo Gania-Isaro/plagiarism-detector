@@ -14,14 +14,14 @@ def word_search(word, essay1_words, essay2_words):
     word = word.lower()
     count1 = essay1_words.count(word)
     count2 = essay2_words.count(word)
-    print(f"'{word}' appears {count1} times in essay1 and {count2} times in essay2.")
+    print(f"The word '{word}' appears {count1} times in essay1 and {count2} times in essay2.")
     return count1, count2
 
 def common_words(essay1_words, essay2_words):
     set1 = set(essay1_words)
     set2 = set(essay2_words)
     common = set1.intersection(set2)
-    print("\nCommon words found in both essays:")
+    print("\nCommon words found in both essays (intersection):")
     print(common)
     return common
 
@@ -36,8 +36,7 @@ def plagiarism_check(essay1_words, essay2_words):
         print("Similarity is likely (50% or more).")
     else:
         print("Similarity is not likely (less than 50%).")
-    print("Common words (intersection):")
-    print(intersection)
+    
     choice = input("\nDo you want to save this report? (y/n): ").strip().lower()
     if choice == 'y':
         os.makedirs('reports', exist_ok=True)

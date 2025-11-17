@@ -1,3 +1,4 @@
 Plagiarism Report
-Plagiarism Percentage: 50.68%
-Common Words:about, also, beauty, communities, economy, ecotourism, encourages, forest, gorillas, government, green, hills, history, important, include, its, kigali, kivu, lake, landscapes, learn, local, many, mountain, national, natural, nyungwe, other, park, rwanda, rwanda’s, see, tourism, tourists, travel, visitors, volcanoes
+Plagiarism Percentage: 32.71%
+Common Words:
+1994, africa, agriculture, are, beautiful, capital, coffee, country, culture, development, east, education, exports, genocide, gorillas, has, hills, its, kigali, known, landscapes, modern, mountain, nation, national, park, peace, people, progress, rwanda, safe, tea, technology, tourists, volcanoes
